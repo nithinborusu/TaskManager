@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Tasks</title>
+    <style>
+ /* styles for tasks.ejs */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+}
+
+nav {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+}
+
+h1 {
+    color: #333;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    background-color: #f8f8f8;
+    border: 1px solid #ddd;
+    margin: 10px 0;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+a {
+    text-decoration: none;
+    color: #0074d9; /* Blue link color */
+}
+
+form {
+    display: inline;
+    margin: 0;
+    padding: 0;
+}
+
+button {
+    background-color: #ff5050; /* Red button background color */
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+
+
+
+    </style>
+</head>
+<body>
+    <nav>
+        <a href="/">Home</a>
+        <a href="/tasks">Tasks</a>
+        <a href="/addtask">Add Task</a>
+    </nav>
+
+    <h1>Task Manager</h1>
+
+    <h2>Tasks</h2>
+    <ul>
+        <% tasks.forEach(task => { %>
+            <li>
+                <%= task.name %>: <%= task.description %>
+                <a href="/edittask/<%= task.id %>">Edit</a>
+                <form action="/deletetask/<%= task.id %>" method="post">
+                    <button type="submit">Delete</button>
+                </form>
+            </li>
+        <% }); %>
+    </ul>
+</body>
+</html>

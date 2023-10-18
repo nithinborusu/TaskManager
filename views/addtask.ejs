@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Add Task</title>
+    <style>/* styles for addtask.ejs */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+            text-align: center;
+        }
+        
+        nav {
+            background-color: #ef4e4e;
+            color: #fff;
+            padding: 10px;
+        }
+        
+        h1 {
+            color: #333;
+        }
+        
+        form {
+            background-color: #fff;
+            border: 1px solid #ddd;
+            padding: 20px;
+            max-width: 400px;
+            margin: 0 auto;
+            text-align: left;
+        }
+        
+        label, input, textarea {
+            display: block;
+            margin: 10px 0;
+        }
+        
+        button {
+            background-color: #0074d9;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            cursor: pointer;
+        }
+        </style>
+</head>
+<body>
+    <nav>
+        <a href="/">Home</a>
+        <a href="/tasks">Tasks</a>
+
+    </nav>
+
+    <h1>Add a New Task</h1>
+    <form action="/addtaskSubmit" method="post">
+        <label for="name">Task Name:</label>
+        <input type="text" id="name" name="name" required>
+        <br>
+        <label for="description">Description:</label>
+        <textarea id="description" name="description" required></textarea>
+        <br>
+        <button type="submit">Add Task</button>
+    </form>
+</body>
+</html>

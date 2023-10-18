@@ -1,0 +1,14 @@
+{
+    "type": "service_account",
+    "project_id": "news-website-4bfb5",
+    "private_key_id": "47117549628fbc81aea780a3461494c9b24e854a",
+    "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQDbWRwVf+tKX5fq\nHOckYSvptG5Dp/iz4ci5/eHGkcevvzauEINEZUFDrYhOlIBwQwNIVg4831lKC6bx\ncntWarnubujt4BElsqAunQ31h46r4FRhsrij/Sb2+wlsJxCyeH/hMV3WKtTqguaw\nUM9KtIy8iJ6PbCXhSqCipqUZnSj2ILvXI9nTao58lmebPpdyKhljBCqELTv35KUI\nm954lAX56ZeeERCWNIkV1BEZzYYYgorZxY5wSbKgRHNLe0c475sjOKbdX+4PQnpX\nQkWiPFYHkNU88isHDQ+DIpqTatnj+n7+7W2tOte94jRd1revn/PLCEGGsr8juUPw\nuGGP/wZtAgMBAAECggEAAR/RjZ2ofIAwGeaDMR6guD5bw1PY1JPfcMPySeTaOmvM\nkV4Ad5OySYZvQ1cuWlpJlG/BJm2O+lrEGgriwsm3bBdcRnMxJfmRVHPVzBChZKmj\ncmsVWF0rkOAEB254KYYFwnHQ6pBbzjDqEvTIaeMHhqQySzIRdqMTNDTjoJWQ4xlm\nQU/px9N0x9FXNdBdlDa+GzGUlcgKSUvoEy3eOmiJg0uOXyepAlGA+zgoOCSB4d9g\nbYPwZCpfvApo/ScTMZV02qlEJeg8h+G18ZCelVvr63t7xB7HHlXA/iPBldqRaECN\nv+a49PZp1ZKb3IvK+uPP0fyYm9oMGiU8BjYnkGsr+QKBgQD3KSIHhL/BMQM7ZDkG\nMsKUXHSGtL+i9VNYHijRGKNXYnP1ruPZ8UWFEqSJ7n2JVYqqtk78lxmOwzAY2PkM\nLU521P/TnI3KXWC+6G7KNVM8VcuayucDH82ORoG1jnaSTYjFuJFolmqxIhd28Ddb\nzUuUe71jC8u+vDyLo4IXVwymVQKBgQDjMVcKteCjjWdUvftMFzaAcCjMfz/SCZjU\nL4aeqRbpBQV6RYXfVl1auJXixeiDnd9zPcsbMxp/IDlbGRrEOnKCx24gaPt3f6dP\no/9hRs1TTkOL6RZXgwDDbfmSDs7deeU+OyPL6wctKROiMTxk05Baov73y8GA7Jja\nAHxBh5SHuQKBgG0boGUXShs7ysR2KuI8mD8sTViGBC8pA4Db14Lu0HSsBqrHaNh2\nNQ1YvIATYyG0PIG990J0ZZjrO5lMdyzT91ZoEwNUkhdqf2Hnc7kaL0NsUHRl6/Mq\nH/EV2P7QBDHzvlQidTZpaHIHrboYsyd4ikvjECjgNTJfII84QB6TlAb9AoGAEbJ5\nNkNeoT7VirtVxOKWA0E5XFyZKxJGTlj5YoiHWVVjzNd3iyMeGIACZOzHpOD6U+6/\nUHoVmUt4TElTVW+8FcXVJT8oP3G5JbH/paMvQUr6Zf6dF+oDeDWr2B3BLW1eVw+i\nRTMklvb5KYwuSShVuUmzFLhRdWp4qZqaEzytbDkCgYEA3+PIm4kgmhSmTB+yXRoE\neR3GCsLg1CTgtUNEVOLu0JZ8QXc9cttZYeQUXlSRyGcZRNbWDzZPlYqVKV63sGYA\nWe905cerV8nKs2inTh0jx5NSIGsG9oQm8AuvGoKZunsgtad6QSVYeLFS84mabsiM\nmTdseBHctJEoI49tk6EL1KI=\n-----END PRIVATE KEY-----\n",
+    "client_email": "firebase-adminsdk-zhucx@news-website-4bfb5.iam.gserviceaccount.com",
+    "client_id": "116373497564402886550",
+    "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+    "token_uri": "https://oauth2.googleapis.com/token",
+    "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+    "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/firebase-adminsdk-zhucx%40news-website-4bfb5.iam.gserviceaccount.com",
+    "universe_domain": "googleapis.com"
+  }
+  
